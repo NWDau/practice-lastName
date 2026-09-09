@@ -22,42 +22,23 @@ He's one of my favorite actors due to the fact that he's so versatile. His abili
 
 # Code fencing
 
+Link containing code from S# - 1.
+
+IntListTesterVer1
+
 ```
 
-public class PrimitiveParameters {
-
-	public static void main(String[] args)
-	{	go();
-	}
-	
-	public static void go()
-	{	int x = 3;
-		int y = 2;
-		System.out.println("In method go. x: " + x + " y: " + y);
-		falseSwap(x,y);
-		System.out.println("in method go. x: " + x + " y: " + y);
-		moreParameters(x,y);
-		System.out.println("in method go. x: " + x + " y: " + y);
-	}
-	
-	public static void falseSwap(int x, int y)
-	{	System.out.println("in method falseSwap. x: " + x + " y: " + y);
-		int temp = x;
-		x = y;
-		y = temp;
-		System.out.println("in method falseSwap. x: " + x + " y: " + y);
-	}
-	
-	public static void moreParameters(int a, int b)
-	{	System.out.println("in method moreParameters. a: " + a + " b: " + b);
-		a = a * b;
-		b = 12;
-		System.out.println("in method moreParameters. a: " + a + " b: " + b);
-		falseSwap(b,a);
-		System.out.println("in method moreParameters. a: " + a + " b: " + b);	
-	}
+public class IntListTesterVer1 {
+    public static void main(String[] args){
+        IntListVer1 list1 = new IntListVer1();
+        IntListVer1 list2 = new IntListVer1(100);
+        
+        //equal when empty?
+        System.out.println("list1.equals(list2): " + list1.equals(list2));
+        System.out.println("list1: " + list1);
+        System.out.println("list2: " + list2);
+    }
 }
-
 ```
 
-<https://www.cs.utexas.edu/~scottm/cs307/javacode/codeSamples/PrimitiveParameters.java>
+<https://www.cs.utexas.edu/~scottm/cs307/javacode/codeSamples/IntListTesterVer1.java>
