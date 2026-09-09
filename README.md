@@ -22,10 +22,10 @@ He's one of my favorite actors due to the fact that he's so versatile. His abili
 
 # Code fencing
 
-'''
+```
 
-public class PrimitiveParameters
-{	
+public class PrimitiveParameters {
+
 	public static void main(String[] args)
 	{	go();
 	}
@@ -58,6 +58,6 @@ public class PrimitiveParameters
 	}
 }
 
-'''
+```
 
 <https://www.cs.utexas.edu/~scottm/cs307/javacode/codeSamples/PrimitiveParameters.java>
